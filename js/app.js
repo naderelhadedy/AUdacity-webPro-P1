@@ -192,3 +192,47 @@ window.addEventListener('scroll', function() {
     }, 3000);
 }, false);
 
+
+
+//script for scroll to sections from links
+const totalLinks = document.querySelectorAll('.link');
+
+totalLinks.forEach(ScrollToSection);
+
+function ScrollToSection(item) {
+
+  item.addEventListener("click", function(event) {
+
+    event.preventDefault();
+    
+    const theContent1 = item.textContent;
+    const totalSections = document.querySelectorAll('.section');
+
+    totalSections.forEach(doThis);
+
+    function doThis(item) {
+
+      const theContent2 = item.getAttribute("data-nav");
+  
+      if (theContent1 == theContent2) {
+        item.scrollIntoView({behavior:"smooth"});
+      }
+    }
+
+  });
+
+}
+
+
+
+//script for responsive menu bar
+function showNav() {
+
+  const respoList = document.getElementById("navbar__list");
+
+  if (respoList.className === "navlist") {
+    respoList.className += " responsive";
+  } else {
+    respoList.className = "navlist";
+  }
+}
