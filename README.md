@@ -52,7 +52,7 @@ To see the styling file, open `css/styles.css` .
 To see the content file or view the project, open `index.html` .
 
 
-### Run Time Environment
+### Running
 
 You can do the following to view project tricks:
 
