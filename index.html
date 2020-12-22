@@ -9,6 +9,8 @@
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">  <!-- Load Styles -->
   <!-- Link style sheet to html -->
   <link href="css/styles.css" rel="stylesheet">
+  <!-- link to fafa icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
 </head>
 <body>
@@ -17,7 +19,10 @@
   <header class="page__header">
     <nav class="navbar__menu">
       <!-- Navigation starts as empty UL that will be populated with JS -->
-      <ul id="navbar__list">
+      <ul id="navbar__list" class="navlist">
+        <li class="menuBar" onclick="showNav()">
+          <i class="fa fa-bars" style="font-size: 18px;"></i>
+        </li>
       </ul>
     </nav>
   </header>
