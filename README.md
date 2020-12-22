@@ -13,7 +13,7 @@ landing page for a moocs webiste
 * [Description](#Description)
 * [Prerequisite](#Prerequisite)
 * [Installation](#Installation)
-* [Run Time Environment](#Run Time Environment)
+* [Run Time Environment](#RunTimeEnvironment)
 * [Support](#Support)
 * [Acknowledgment](#Acknowledgment)
 
@@ -52,7 +52,7 @@ To see the styling file, open `css/styles.css` .
 To see the content file or view the project, open `index.html` .
 
 
-### Run Time Environment
+### RunTimeEnvironment
 
 You can do the following to view project tricks:
 
