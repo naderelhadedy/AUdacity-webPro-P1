@@ -11,7 +11,9 @@ landing page for a moocs webiste
 ## Table of Contents
 
 * [Description](#Description)
-* [Usage](#Usage)
+* [Prerequisite](#Prerequisite)
+* [Installation](#Installation)
+* [Run Time Environment](#Run Time Environment)
 * [Support](#Support)
 * [Acknowledgment](#Acknowledgment)
 
@@ -32,8 +34,14 @@ Here is an overview about available technology related courses:
 * Self-driving Cars, etc...
 
 
+### Prerequisite
 
-### Usage
+There is no prerequisites as this can be viewed locally.
+You just need the web browser and text editor to see the project code.
+
+
+
+### Installation
 
 There are three main files that help render the project, a file for styling, another for interactivity, the last for the content and view.
 
@@ -42,6 +50,17 @@ To see the script file, open `js/app.js` .
 To see the styling file, open `css/styles.css` .
 
 To see the content file or view the project, open `index.html` .
+
+
+### Run Time Environment
+
+You can do the following to view project tricks:
+
+- Scroll section by section
+- Scroll and wait 3 seconds
+- Click on links on navigation menu
+- Go down and click on scroll-to-top button
+- Minimize the screen to view the responsive navigation menu
 
 
 
@@ -56,6 +75,8 @@ You can contact us for any help by
 
 ### Acknowledgment
 
-Thanks to Udacity for creating the scratch file.
-Thanks again to MDN and W3Schools for additional help.
+* Udacity
+* MDN
+* W3Schools
+
 
